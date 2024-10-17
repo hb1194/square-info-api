@@ -1,75 +1,74 @@
 body {
-    font-family: Arial, sans-serif;
-  }
-  
-  .characters-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-    justify-content: center;
-    padding: 20px;
-  }
-  
-  .character-card {
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    width: 150px;
-    text-align: center;
-    background-color: #f9f9f9;
-    cursor: pointer;
-    transition: transform 0.3s ease, background-color 0.3s ease;
-  }
-  
-  .character-card:hover {
-    transform: scale(1.05);
-    background-color: #f1f1f1;
-  }
-  
-  .loader {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .modal {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .modal-content {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    text-align: left;
-    max-width: 400px;
-    width: 100%;
-  }
-  
-  .close {
-    float: right;
-    cursor: pointer;
-    font-size: 24px;
-    color: #aaa;
-  }
-  
-  .close:hover {
-    color: #000;
-  }
-  
-  .pagination {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .pagination button {
-    padding: 10px 20px;
-    margin: 0 10px;
-  }
-  
+  font-family: Arial, sans-serif;
+}
+
+.characters-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.character-card {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 150px;
+  text-align: center;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.character-card:hover {
+  transform: scale(1.05);
+  background-color: #f1f1f1;
+}
+
+.loader {
+  text-align: center;
+  padding: 20px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+  max-width: 400px;
+  width: 100%;
+}
+
+.close {
+  float: right;
+  cursor: pointer;
+  font-size: 24px;
+  color: #aaa;
+}
+
+.close:hover {
+  color: #000;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  margin: 0 10px;
+}
