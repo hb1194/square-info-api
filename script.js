@@ -1,4 +1,4 @@
-  document.querySelector('#path').addEventListener('click', () => {
+  document.querySelector('.path').addEventListener('click', () => {
     navigateTo('/people');
   });
   
