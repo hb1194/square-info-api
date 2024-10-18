@@ -1,9 +1,5 @@
 # Star Wars Characters Web App
 
-## Overview
-
-This is a simple web application that fetches and displays Star Wars characters using the SWAPI (Star Wars API). The app also supports pagination and allows users to view details about each character in a modal.
-
 ## File Structure
 
 - **index.html**: Contains the structure of the webpage, including the new button that routes users to `/people`.
