@@ -1,5 +1,11 @@
 body {
   font-family: Arial, sans-serif;
+  background-color: antiquewhite;
+}
+
+.path{
+  background-color: cadetblue;
+  color: white;
 }
 
 .characters-container {
@@ -12,18 +18,19 @@ body {
 
 .character-card {
   padding: 20px;
-  border: 1px solid #ddd;
+  border: 1px solid #eb0707;
   border-radius: 8px;
   width: 150px;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: #f2f6f7;
   cursor: pointer;
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .character-card:hover {
-  transform: scale(1.05);
-  background-color: #f1f1f1;
+  transform: scale(1.12);
+  background-color: #141313;
+  color: white;
 }
 
 .loader {
@@ -71,4 +78,6 @@ body {
 .pagination button {
   padding: 10px 20px;
   margin: 0 10px;
+  background-color: cadetblue;
+  color: white;
 }
